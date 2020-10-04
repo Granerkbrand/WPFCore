@@ -1,4 +1,6 @@
-﻿using WPFCore.Core;
+﻿using Logging.Core;
+using System.Windows;
+using WPFCore.Core;
 
 namespace Sandbox.ViewModels
 {
@@ -6,6 +8,11 @@ namespace Sandbox.ViewModels
     {
 
         public string WelcomeText { get; set; } = "Welcome user";
+
+        public MainPageViewModel(ILoggingSystem<MainPageViewModel> logger)
+        {
+            WelcomeText += $", {logger}";
+        }
 
     }
 }

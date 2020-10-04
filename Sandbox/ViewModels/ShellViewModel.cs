@@ -1,6 +1,8 @@
-﻿using System;
+﻿using Logging.Core;
+using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Windows;
 using WPFCore;
 
 namespace Sandbox.ViewModels

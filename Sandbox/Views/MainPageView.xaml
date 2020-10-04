@@ -10,6 +10,8 @@
         <TextBlock Text="{Binding WelcomeText, FallbackValue=Welcome}"
                    FontSize="20"
                    VerticalAlignment="Center"
-                   HorizontalAlignment="Center"/>
+                   HorizontalAlignment="Center"
+                   TextWrapping="Wrap"
+                   MaxWidth="500"/>
     </Grid>
 </UserControl>

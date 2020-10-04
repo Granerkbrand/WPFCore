@@ -1,6 +1,7 @@
 ﻿using Logging.Core;
 using Samantha;
 using System;
+using System.CodeDom;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
@@ -25,7 +26,7 @@ namespace WPFCore
             IContainerBuilder builder = new ContainerBuilder();
 
             builder.Register<WindowManager>().As<IWindowManager>();
-            builder.Register<LoggingSystem<Startup>>().As<ILoggingSystem<Startup>>();
+            builder.RegisterGeneric(typeof(LoggingSystem<>)).As(typeof(ILoggingSystem<>));
 
             ConfigureContainer(builder);
             Container = builder.Build();
