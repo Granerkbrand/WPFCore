@@ -5,4 +5,9 @@
     <UseWpf>true</UseWpf>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Logger\Logger\Logging.csproj" />
+    <ProjectReference Include="..\Samantha\Samantha\Samantha.csproj" />
+  </ItemGroup>
+
 </Project>

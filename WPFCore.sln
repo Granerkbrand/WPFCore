@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFCore", "WPFCore\WPFCore.csproj", "{CF8FA1CB-8B30-40A0-9A60-28B76CC71C8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFCore", "WPFCore\WPFCore.csproj", "{CF8FA1CB-8B30-40A0-9A60-28B76CC71C8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logging", "Logger\Logger\Logging.csproj", "{31B25AAE-F04A-40B8-9B82-FA5A76EE62EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samantha", "Samantha\Samantha\Samantha.csproj", "{E33469CD-6470-42FF-9D42-1C5DC28902C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{CF8FA1CB-8B30-40A0-9A60-28B76CC71C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF8FA1CB-8B30-40A0-9A60-28B76CC71C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF8FA1CB-8B30-40A0-9A60-28B76CC71C8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31B25AAE-F04A-40B8-9B82-FA5A76EE62EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31B25AAE-F04A-40B8-9B82-FA5A76EE62EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31B25AAE-F04A-40B8-9B82-FA5A76EE62EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31B25AAE-F04A-40B8-9B82-FA5A76EE62EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E33469CD-6470-42FF-9D42-1C5DC28902C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E33469CD-6470-42FF-9D42-1C5DC28902C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E33469CD-6470-42FF-9D42-1C5DC28902C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E33469CD-6470-42FF-9D42-1C5DC28902C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

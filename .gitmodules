@@ -1,0 +1,6 @@
+[submodule "Logger"]
+	path = Logger
+	url = https://github.com/Granerkbrand/Logging.git
+[submodule "Samantha"]
+	path = Samantha
+	url = https://github.com/Granerkbrand/Samantha.git
