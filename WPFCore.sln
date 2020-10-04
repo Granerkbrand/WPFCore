@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logging", "Logger\Logger\Lo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samantha", "Samantha\Samantha\Samantha.csproj", "{E33469CD-6470-42FF-9D42-1C5DC28902C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox", "Sandbox\Sandbox.csproj", "{D091D3B7-267D-49E5-8D27-6E39CD753300}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E33469CD-6470-42FF-9D42-1C5DC28902C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E33469CD-6470-42FF-9D42-1C5DC28902C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E33469CD-6470-42FF-9D42-1C5DC28902C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D091D3B7-267D-49E5-8D27-6E39CD753300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D091D3B7-267D-49E5-8D27-6E39CD753300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D091D3B7-267D-49E5-8D27-6E39CD753300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D091D3B7-267D-49E5-8D27-6E39CD753300}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
