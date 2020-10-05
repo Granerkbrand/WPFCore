@@ -25,7 +25,8 @@ namespace WPFCore
         {
             IContainerBuilder builder = new ContainerBuilder();
 
-            builder.Register<WindowManager>().As<IWindowManager>();
+            builder.Register<WindowManager>().As<IWindowManager>().PerInstance();
+            builder.Register<EventAggregator>().As<IEventAggregator>().PerInstance();
             builder.RegisterGeneric(typeof(LoggingSystem<>)).As(typeof(ILoggingSystem<>));
 
             ConfigureContainer(builder);
