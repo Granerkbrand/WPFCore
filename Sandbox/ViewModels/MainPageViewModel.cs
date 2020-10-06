@@ -10,7 +10,15 @@ namespace Sandbox.ViewModels
     public class MainPageViewModel : View
     {
 
+        private string _message;
+
         public string WelcomeText { get; set; } = "Welcome user";
+
+        public string Message
+        {
+            get { return _message; }
+            set { SetProperty(ref _message, value); }
+        }
 
         public RelayCommand OpenTestCommand { get; set; }
 
@@ -18,11 +26,9 @@ namespace Sandbox.ViewModels
 
         public MainPageViewModel(ILoggingSystem<MainPageViewModel> logger, IEventAggregator eventAggregator)
         {
-            WelcomeText += $", {logger}";
-
             OpenTestCommand = new RelayCommand(o => eventAggregator.Invoke(new TestEvent()
             {
-                Message = $"Test: {DateTime.Now}"
+                Message = $"Input: {Message}"
             }));
 
             OpenNewPageCommand = new RelayCommand(o => eventAggregator.Invoke(new OpenNewPageEvent()

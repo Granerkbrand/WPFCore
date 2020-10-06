@@ -8,26 +8,40 @@
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition/>
             <RowDefinition Height="Auto"/>
+            <RowDefinition/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <TextBlock Grid.Row="0" 
                    Text="{Binding WelcomeText, FallbackValue=Welcome}"
-                   FontSize="20"
+                   FontSize="30"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Center"
                    TextWrapping="Wrap"
-                   MaxWidth="500"/>
+                   MaxWidth="500"
+                   Padding="10"/>
 
-        <Button Grid.Row="1"
-                Content="NewPage"
+        <StackPanel Grid.Row="1"
+                    Orientation="Vertical"
+                    VerticalAlignment="Center">
+            <TextBlock Text="message:"
+                       HorizontalAlignment="Center"
+                       FontSize="16"/>
+            <TextBox Text="{Binding Message}"
+                     HorizontalAlignment="Center"
+                     Width="300"/>
+            <Button Content="send"
+                    Margin="10"
+                    Padding="20 10"
+                    HorizontalAlignment="Center"
+                    Command="{Binding OpenTestCommand}"/>
+        </StackPanel>
+
+        <Button Grid.Row="2" 
+                Content="open new page"
+                Margin="10"
                 Padding="20 10"
+                HorizontalAlignment="Center"
                 Command="{Binding OpenNewPageCommand}"/>
-
-        <Button Grid.Row="2"
-                Content="Test"
-                Padding="20 10"
-                Command="{Binding OpenTestCommand}"/>
     </Grid>
 </UserControl>
