@@ -21,5 +21,21 @@ namespace WPFCore
             element.DataContext = item;
             ActivePage = element;
         }
+
+        public void ActivatePage(Type type)
+        {
+            var item = Startup.Container.Resolve(type);
+            var element = ViewLocator.LocateForModel(item);
+            element.DataContext = item;
+            ActivePage = element;
+        }
+
+        public void ActivatePage<T>()
+        {
+            var item = Startup.Container.Resolve<T>();
+            var element = ViewLocator.LocateForModel(item);
+            element.DataContext = item;
+            ActivePage = element;
+        }
     }
 }
