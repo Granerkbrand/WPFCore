@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logging", "Logger\Logger\Lo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samantha", "Samantha\Samantha\Samantha.csproj", "{E33469CD-6470-42FF-9D42-1C5DC28902C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox", "Sandbox\Sandbox.csproj", "{D091D3B7-267D-49E5-8D27-6E39CD753300}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox", "Sandbox\Sandbox.csproj", "{D091D3B7-267D-49E5-8D27-6E39CD753300}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Instinct", "..\Instinct\Instinct\Instinct.csproj", "{88A1D3DF-D21E-43D2-98D6-699AE6568F38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{D091D3B7-267D-49E5-8D27-6E39CD753300}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D091D3B7-267D-49E5-8D27-6E39CD753300}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D091D3B7-267D-49E5-8D27-6E39CD753300}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88A1D3DF-D21E-43D2-98D6-699AE6568F38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A1D3DF-D21E-43D2-98D6-699AE6568F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A1D3DF-D21E-43D2-98D6-699AE6568F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A1D3DF-D21E-43D2-98D6-699AE6568F38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

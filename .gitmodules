@@ -4,3 +4,6 @@
 [submodule "Samantha"]
 	path = Samantha
 	url = https://github.com/Granerkbrand/Samantha.git
+[submodule "Instinct"]
+	path = Instinct
+	url = https://github.com/Granerkbrand/Instinct.git
